@@ -93,7 +93,7 @@
 		* 3.4.4 Download Reports
 		* 3.4.5 Upload reports
 			* 3.4.5.1 Rules
-			*Importing Custom form fields/Personal information
+				* Importing Custom form fields/Personal information
 			* 3.4.5.2 Sample CSV Report
 		* 3.4.6 Delete all reports
 * 4. The User Interface
