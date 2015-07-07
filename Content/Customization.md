@@ -6,7 +6,7 @@
 
 If your website is www.yourdomain.com, the administration login would be available at http://yourdomain.com/admin, or http://yourdomain.com/login. It will look like this: 
 
-![image alt text](image_15.png)
+![image alt text](../Images/image_15.png)
 
 Enter the username and the password to access the Admin page. 
 
@@ -14,7 +14,7 @@ Enter the username and the password to access the Admin page.
 
 If you don’t already have an account, you can create one and an administrator will upgrade your access level, then you can log in.
 
-![image alt text](image_16.png)![image alt text](image_17.png)
+![image alt text](../Images/image_16.png)![image alt text](../Images/image_17.png)
 
 ## 2.2 Modifying settings
 
@@ -136,15 +136,15 @@ This function allows the administrator to sync the platform with Google Analytic
 
 The Akismet Key allows the administrator to have Akismet pre-screening the messages coming in to look for spam. To be able to use this function the administrator needs to be registered for a WordPress account and get a free API key.
 
-![image alt text](image_18.png)
+![image alt text](../Images/image_18.png)
 
-![image alt text](image_19.png)
+![image alt text](../Images/image_19.png)
 
 ### 2.2.2 Map Settings
 
 This section allows you to select which type of base map you want for your project. This section guides you step by step in the setting up of the base map.
 
-![image alt text](image_20.png)
+![image alt text](../Images/image_20.png)
 
 #### 2.2.2.1 Default Location
 
@@ -206,7 +206,7 @@ This section gives you the ability to set one icon for all categories displayed 
 
 This page allows you to set up phone numbers through which you will be able to receive SMS messages from.
 
-![image alt text](image_21.png)
+![image alt text](../Images/image_21.png)
 
 There are two possible ways of setting up the Ushahidi platform to receive SMS directly into the platform:-
 
@@ -244,17 +244,17 @@ This section explains how to use FrontlineSMS v2.2+ with Ushahidi. [Instructions
 
 * Navigate to the Addons page, and look for the FrontlineSMS plugin. We’ll need to retrieve a key piece of information we'll need to plug into FrontlineSMS: the "Sync Key." You can find this by clicking the 'Settings' link next to the "FrontlineSMS" title of the addon. This will open the FrontlineSMS addon settings where you will find the Sync Key. Copy this key; we'll cover where to plug it in in the next step.  (*Note: You may ignore the "FrontlineSMS HTTP Post Link" URL as that pertains to the 1.X versions of FLSMS.*) 
 
-![image alt text](image_22.png)
+![image alt text](../Images/image_22.png)
 
-* On the left sidebar, click on the "Create new activity" under the "Activities" section.![image alt text](image_23.png)
+* On the left sidebar, click on the "Create new activity" under the "Activities" section.![image alt text](../Images/image_23.png)
 
-* A new window will appear and you will be presented with a number of options. Choose "Web Connection" at the bottom of the list.![image alt text](image_24.png)
+* A new window will appear and you will be presented with a number of options. Choose "Web Connection" at the bottom of the list.![image alt text](../Images/image_24.png)
 
-* Selecting Web Connection will present a new set of options. Select "Crowdmap / Ushahidi" and click "Next" at the bottom right.![image alt text](image_25.png)
+* Selecting Web Connection will present a new set of options. Select "Crowdmap / Ushahidi" and click "Next" at the bottom right.![image alt text](../Images/image_25.png)
 
-* Click the Ushahidi button and add the following settings: Add your custom URL and API key (the "Sync Key" from your deployment). Once you've entered this, click the "Next" button at the bottom right and you'll come to some final configuration options.![image alt text](image_26.png)
+* Click the Ushahidi button and add the following settings: Add your custom URL and API key (the "Sync Key" from your deployment). Once you've entered this, click the "Next" button at the bottom right and you'll come to some final configuration options.![image alt text](../Images/image_26.png)
 
-* On this screen, you have the option to configure FrontlineSMS to automatically move messages into your Web Connection and pass SMS reports up to Crowdmap. To automatically process SMS in this way select, "Process responses containing a keyword automatically." Alternatively, you can select the "Do not use a keyword" option, which will result in all incoming messages triggering the Web Connection provided they do not match any other activities' keywords. Only one activity at a time can have this setting. The third option, "Do not automatically sort messages," you can also disable automatic sorting altogether. With this setting you can still use your Web Connection's functionality by manually moving messages into your new activity from the inbox or any other activity or folder. This allows you to manually choose which incoming SMS get passed up to Crowdmap. When you have finished setting up your automatic sorting options, you can set your keywords. You can enter any number of keywords separated by commas. With this setting, any incoming message that starts with one of those keywords will trigger the Web Connection. Once you've decided how to deal with incoming messages, click "Next" again at the bottom right.![image alt text](image_27.png)
+* On this screen, you have the option to configure FrontlineSMS to automatically move messages into your Web Connection and pass SMS reports up to Crowdmap. To automatically process SMS in this way select, "Process responses containing a keyword automatically." Alternatively, you can select the "Do not use a keyword" option, which will result in all incoming messages triggering the Web Connection provided they do not match any other activities' keywords. Only one activity at a time can have this setting. The third option, "Do not automatically sort messages," you can also disable automatic sorting altogether. With this setting you can still use your Web Connection's functionality by manually moving messages into your new activity from the inbox or any other activity or folder. This allows you to manually choose which incoming SMS get passed up to Crowdmap. When you have finished setting up your automatic sorting options, you can set your keywords. You can enter any number of keywords separated by commas. With this setting, any incoming message that starts with one of those keywords will trigger the Web Connection. Once you've decided how to deal with incoming messages, click "Next" again at the bottom right.![image alt text](../Images/image_27.png)
 
 * Now that the platforms are connected, it's time to do and end-to-end test to ensure that messages received in FrontlineSMS will appear within your Ushahidi or Crowdmap deployment. Begin by connecting FrontlineSMS to a [compatible device](http://www.frontlinesms.com/the-software/requirements/). Test that FrontlineSMS is receiving messages from your mobile phone or modem by sending a couple of SMS, being sure to include a keyword if you specified that. You should see the message come into FrontlineSMS in the "Messages" section, or listed within your activity. A report should then appear in your Ushahidi or Crowdmap installation as well. If it is not working, read through the [user resources](http://www.frontlinesms.com/user-resources/) section of the FrontlineSMS website and check the [Frequently Asked Questions](http://www.frontlinesms.com/user-resources/frequently-asked-questions/). 
 
@@ -262,7 +262,7 @@ This section explains how to use FrontlineSMS v2.2+ with Ushahidi. [Instructions
 
 SMSsync is a simple, yet powerful SMS to HTTP sync utility that turns any Android phone into a local SMS gateway by sending incoming messages(SMS) to a configured URL (web service).
 
-* Download the application from the Android Market. Please note that SMSsync works on any SMS-enabled device running Android 2.1 and above. Find the SMSSync plugin on the addons page, and click on *settings *right next to the smssync title to retrieve the Sync URL. You can also optionally set an SMSSync secret key for security purposes ![image alt text](image_28.png)
+* Download the application from the Android Market. Please note that SMSsync works on any SMS-enabled device running Android 2.1 and above. Find the SMSSync plugin on the addons page, and click on *settings *right next to the smssync title to retrieve the Sync URL. You can also optionally set an SMSSync secret key for security purposes ![image alt text](../Images/image_28.png)
 
 * Open up the SMSSync Application on your android device. You’ll note that you can manage multiple Sync URLs on the app. 
 
@@ -308,7 +308,7 @@ For more details on how to manage messages within SMSSync, [see configuration in
 
 * Click on Save Settings button to save the entries.
 
-![image alt text](image_29.png)
+![image alt text](../Images/image_29.png)
 
 The Clickatell plugin will allow you to use Clickatell for outgoing messages (like the SMS alerts system). If you want to use Clickatell also to receive SMS messages, you’ll need to sign up for a 2- way service from Clickatell. Once signed up, they will ask you for a 'Primary Callback URL'. Use the URL at the bottom of the clickatell plugin settings age and use it as the 'Target Address' and select 'HTTP POST' from the drop down.
 
@@ -316,7 +316,7 @@ The Clickatell plugin will allow you to use Clickatell for outgoing messages (li
 
 This section allows you to set up the platform to receive emails from users. To add email settings, you must have an email account already set up with Google, Yahoo or any other domain.
 
-![image alt text](image_30.png)
+![image alt text](../Images/image_30.png)
 
 *1. Mail Server Username*
 
@@ -348,7 +348,7 @@ You can now save the settings by clicking on the "Save Settings" tab, and all th
 
 This function allows the platform to be reachable by users even if they don’t type ‘index.php’ in the address. This way it will be easier for the users to find the platform online if they know the name used in the URL but not the exact address. By choosing YES in the scroll down menu you will allow for this function to be in place. After you click "Yes" or “No”, click on the “Save Settings” tab.
 
-![image alt text](image_31.png)
+![image alt text](../Images/image_31.png)
 
 ### 2.2.6 HTTPS Settings
 
@@ -356,7 +356,7 @@ You can chose to have your deployment be accessed in a secured mode by setting t
 
 Setting this to "No" makes Ushahidi be accessed in unsecure mode; without "https://" in the URL prefix.
 
-![image alt text](image_32.png)
+![image alt text](../Images/image_32.png)
 
 ### 2.2.7 API Settings
 
@@ -370,7 +370,7 @@ This section allows you to:-
 
 * Ban/Unban IP addresses from accessing data from your deployment via the API
 
-![image alt text](image_33.png)
+![image alt text](../Images/image_33.png)
 
 ### 2.2.8 Twitter Settings
 
@@ -402,11 +402,11 @@ To have your deployment pull tweets based on hashtag/s, you will need to set up 
 
 8.  Add the hashtags you want to pull tweets from in the "Twitter Search Terms" section. You can choose more than one hashtag, separated by a comma. It is recommended that a short and clear hashtag be chosen. This hashtag will also appear on the Information Box on the homepage so that people can use it to post on Twitter messages related to your platform. All the twitter messages that will be posted online with the hashtag(s) set up in this section will also appear in the admin page on the Messages section/Twitter so that they can be transformed into reports directly by the admin.
 
-![image alt text](image_34.png)
+![image alt text](../Images/image_34.png)
 
 ### 2.2.9 External Apps
 
-This section allows you to add and remove any external applications through which users can interact with your deployment. By default, the external applications registered are the smartphone applications on the Android and iOS app stores.![image alt text](image_35.png)
+This section allows you to add and remove any external applications through which users can interact with your deployment. By default, the external applications registered are the smartphone applications on the Android and iOS app stores.![image alt text](../Images/image_35.png)
 
 ## 2.3 Managing Users
 
@@ -420,13 +420,13 @@ This section allows you to:-
 
 * Set up and manage roles and permissions for different user groups on your deployment.
 
-![image alt text](image_36.png)
+![image alt text](../Images/image_36.png)
 
 ### 2.3.1 Manage Roles and Permissions
 
 This section provides advanced role creation by giving administrators the ability to specify access permissions for each role. 
 
-![image alt text](image_37.png)
+![image alt text](../Images/image_37.png)
 
 By default, the platform has 4 preset roles
 
@@ -440,7 +440,7 @@ By default, the platform has 4 preset roles
 
 You can add your own custom roles and set access levels and permissions(e.g Reporter, viewer, observer etc) from this page as illustrated below.
 
-![image alt text](image_38.png)
+![image alt text](../Images/image_38.png)
 
 You can also delete a role/edit it from this section.
 
@@ -454,9 +454,9 @@ If editing an existing user,
 
 * Click on "Edit" on the right hand side of the user selected
 
-![image alt text](image_39.png)
+![image alt text](../Images/image_39.png)
 
-* Add the following details below:-![image alt text](image_40.png)
+* Add the following details below:-![image alt text](../Images/image_40.png)
 
 * Username: Set a suitable username that the user will use to log into the platform with
 
@@ -474,11 +474,11 @@ If editing an existing user,
 
 * New password: If you’d like to change this user’s password, edit this field with a new strong and secure password. If not, leave this field blank
 
-![image alt text](image_41.png)
+![image alt text](../Images/image_41.png)
 
 * Role: Choose the level of administration access you would like this user to have.
 
-![image alt text](image_42.png)
+![image alt text](../Images/image_42.png)
 
 * Receive Notifications: Setting this option to yes will send this user a notification to the user every time a new report is submitted to the platform
 
@@ -488,7 +488,7 @@ If editing an existing user,
 
 To access this page, click on "Addons" on the top menu bar
 
-![image alt text](image_43.png)
+![image alt text](../Images/image_43.png)
 
 ### 2.4.1 Plugins
 
@@ -498,7 +498,7 @@ This section gives you access to plugins installed on your platform, and shows y
 
 * To deactivate a plugin , click on the red *Deactivate* link and confirm this action when prompted with a pop up screen for confirmation
 
-![image alt text](image_44.png)
+![image alt text](../Images/image_44.png)
 
 All Ushahidi deployments have the following plugins installed by default:-
 
@@ -516,7 +516,7 @@ All Ushahidi deployments have the following plugins installed by default:-
 
 * Click on Sharing
 
-* To add a deployment whose reports you would like to share on your deployment, navigate to the Add/Edit Section of the page and provide the following details		![image alt text](image_45.png)
+* To add a deployment whose reports you would like to share on your deployment, navigate to the Add/Edit Section of the page and provide the following details		![image alt text](../Images/image_45.png)
 
 * Name: Give the Ushahidi deployment link a name
 
@@ -526,11 +526,11 @@ All Ushahidi deployments have the following plugins installed by default:-
 
 * Click on Save
 
-* To edit an existing sharing link, click on edit and change the details as desired![image alt text](image_46.png)
+* To edit an existing sharing link, click on edit and change the details as desired![image alt text](../Images/image_46.png)
 
-* To make a sharing link hidden, click on the green link Visible and confirm this action when prompted to by a pop up. To make a sharing link visible, click on the green link Hidden and confirm this action when prompted to by a pop up.![image alt text](image_47.png)
+* To make a sharing link hidden, click on the green link Visible and confirm this action when prompted to by a pop up. To make a sharing link visible, click on the green link Hidden and confirm this action when prompted to by a pop up.![image alt text](../Images/image_47.png)
 
-* To delete a sharing link, click on delete.![image alt text](image_48.png)
+* To delete a sharing link, click on delete.![image alt text](../Images/image_48.png)
 
 * Viewing reports shared from another deployment will be described in more detail in the [User interface section of this guide](#heading=h.iupsygkqqcsd)
 
@@ -554,7 +554,7 @@ This section shows you the different themes available for you to chose from for 
 
 * Polaroid
 
-![image alt text](image_49.png)
+![image alt text](../Images/image_49.png)
 
 * To select a specific theme, click on Select Theme and save your settings
 
@@ -570,25 +570,25 @@ The Get Help box is always located on the top right side of the page. This secti
 
 * *Forum* – The Ushahidi forums are a good place to find frequently asked questions and to share experiences with other deployers who are going through similar huddles.
 
-![image alt text](image_50.png)
+![image alt text](../Images/image_50.png)
 
 ## 2.6 Search
 
 The Search function next to the Get Help box allows you to look for specific reports into the Ushahidi platform. By typing into the box the key word the system will show all the reports, in chronological order, starting form the most recent one, that contain your search terms
 
-![image alt text](image_51.png)
+![image alt text](../Images/image_51.png)
 
 ## 2.7 Language Box
 
 The language box right next to the get help sections allows any user to select the language they would like to operate with on the platform. Note that this does not affect the default language set by the admin in the Settings page.
 
-## ![image alt text](image_52.png)
+## ![image alt text](../Images/image_52.png)
 
 ## 2.8 Manage your deployment
 
 To access this page, click on "Manage"
 
-![image alt text](image_53.png)
+![image alt text](../Images/image_53.png)
 
 This section allows you to set up the main characteristics of the platform as related specifically to your project. 
 
@@ -622,7 +622,7 @@ On accessing the manage tab, a toolbar will grant you access to the following pa
 
 ### 2.8.1 Categories
 
-![image alt text](image_54.png)
+![image alt text](../Images/image_54.png)
 
 By default, the Ushahidi platform has three categories set up during installation, which can be deleted and substituted with ones chosen by any administrator of a deployment.
 
@@ -644,7 +644,7 @@ The categories list shows the following information:-
 
 *To add a new category,*
 
-* Click on Add/Edit![image alt text](image_55.png)
+* Click on Add/Edit![image alt text](../Images/image_55.png)
 
 * Fill in the following mandatory details
 
@@ -656,15 +656,15 @@ The categories list shows the following information:-
 
 * Parent category – You can choose to either make your category a top level category, or make it a sub category of other top level categories, which are listed in the dropdown of this field. Only one level of sub categories is allowed on the Ushahidi platform.
 
-* Category icon(optional, if you have an icon you would like to use in place of category color to display on the map)![image alt text](image_56.png)
+* Category icon(optional, if you have an icon you would like to use in place of category color to display on the map)![image alt text](../Images/image_56.png)
 
-* There’s also an option to add category translations by clicking on the "translations"link. This functionality provides the ability for category information be made available in any language that a user selects from the language box.![image alt text](image_57.png)![image alt text](image_58.png)
+* There’s also an option to add category translations by clicking on the "translations"link. This functionality provides the ability for category information be made available in any language that a user selects from the language box.![image alt text](../Images/image_57.png)![image alt text](../Images/image_58.png)
 
 * Click save
 
 *To edit a category*
 
-* Click on the edit link![image alt text](image_59.png)
+* Click on the edit link![image alt text](../Images/image_59.png)
 
 * Make changes as desired
 
@@ -676,7 +676,7 @@ You can also change the order of categories by dragging and dropping them into t
 
 * Click on Delete
 
-![image alt text](image_60.png)
+![image alt text](../Images/image_60.png)
 
 * A confirmation message will appear
 
@@ -684,11 +684,11 @@ You can also change the order of categories by dragging and dropping them into t
 
 *To show/hide a category*
 
-* If a category is visible, the green link will read *Visible. *![image alt text](image_61.png)
+* If a category is visible, the green link will read *Visible. *![image alt text](../Images/image_61.png)
 
 * If a category is hidden, the green link will read *Hidden*
 
-*	*![image alt text](image_62.png)
+*	*![image alt text](../Images/image_62.png)
 
 * To either show/hide, click on the green link, and you will receive a prompt seeking confirmation on what you want to do.
 
@@ -696,7 +696,7 @@ You can also change the order of categories by dragging and dropping them into t
 
 ### 2.8.2 Blocks
 
-### ![image alt text](image_63.png)
+### ![image alt text](../Images/image_63.png)
 
 This section allows you to :-
 
@@ -710,7 +710,7 @@ At the moment, users are not able to create their own custom blocks, and this ca
 
 Admins can create custom forms and form fields from which users can create reports out of. Every ushahidi deployment comes installed with a default form with the following predefined field, which cannot be deleted, but can be renamed, activated/deactivated and additional form fields added into it.
 
-![image alt text](image_64.png)
+![image alt text](../Images/image_64.png)
 
 Each form has the following form fields which are created by default and cannot be edited/deleted: *Title, Description, Category, Date/Time, Incident Location, Location Name, News Source Link, External Video Link, Upload Photos, Personal Information*
 
@@ -720,7 +720,7 @@ Each form has the following form fields which are created by default and cannot 
 
 * Add in the name of your new form and provide a form description
 
-![image alt text](image_65.png)
+![image alt text](../Images/image_65.png)
 
 * Click on save
 
@@ -728,11 +728,11 @@ By default, your form will be created, with the form fields mentioned above and 
 
 #### 2.8.3.2 Adding Form fields to a form
 
-* Click on *Edit Form fields*. A box with form field will open up, with a list of custom form fields created on this form(if any).![image alt text](image_66.png)
+* Click on *Edit Form fields*. A box with form field will open up, with a list of custom form fields created on this form(if any).![image alt text](../Images/image_66.png)
 
-* Click on *Add new Field *and select a field type from the 8 options provided to you. ![image alt text](image_67.png)
+* Click on *Add new Field *and select a field type from the 8 options provided to you. ![image alt text](../Images/image_67.png)
 
-![image alt text](image_68.png)
+![image alt text](../Images/image_68.png)
 
 * From here, provide the following details:-
 
@@ -752,7 +752,7 @@ By default, your form will be created, with the form fields mentioned above and 
 
 You can create as many custom form fields as possible on each form. You can also edit and delete custom form fields, as well as change their position on the form by clicking on *Move up* or *Move down.*
 
-![image alt text](image_69.png)
+![image alt text](../Images/image_69.png)
 
 ### 2.8.4 Pages
 
@@ -770,7 +770,7 @@ To create an new page,
 
 * Scroll down to the Add/Edit section
 
-![image alt text](image_70.png)
+![image alt text](../Images/image_70.png)
 
 * Provide the following details;
 
@@ -784,35 +784,35 @@ To create an new page,
 
 To edit a page, simply click on edit and provide the desired details
 
-![image alt text](image_71.png)
+![image alt text](../Images/image_71.png)
 
 Pages that are hidden will be denoted by a green link with the word *Hidden* on it. Pages that are visible will be denoted by a green link with the word *Visible* on it. To either hide/make a page visible, click on the respective green link and confirm the action when prompted by the pop up box.
 
-![image alt text](image_72.png)
+![image alt text](../Images/image_72.png)
 
 To delete a page, simply click on the delete link and confirm the action when prompted by the pop up box.
 
-![image alt text](image_73.png)
+![image alt text](../Images/image_73.png)
 
 ### 2.8.5 Newsfeeds
 
 This section allows you to set up feeds that will appear on your "Official and Mainstream news" block on the homepage.
 
-To add a new RSS Feed, Scroll to the *Add/Edit* section at the bottom of the page and give your feed a name, and provide the RSS link to it. ![image alt text](image_74.png)After having saved the new Feeds, the number of items coming in will be visible after clicking on the *Refresh Feed* tab on the top of the page
+To add a new RSS Feed, Scroll to the *Add/Edit* section at the bottom of the page and give your feed a name, and provide the RSS link to it. ![image alt text](../Images/image_74.png)After having saved the new Feeds, the number of items coming in will be visible after clicking on the *Refresh Feed* tab on the top of the page
 
-![image alt text](image_75.png)
+![image alt text](../Images/image_75.png)
 
 The *actions *tab on this page allows you to edit, show/hide and delete any newsfeeds on the list.
 
-![image alt text](image_76.png)
+![image alt text](../Images/image_76.png)
 
 To see the items of each feed you have created, click on the *View Items *link of each Feed and you will be directed to a page where all the items from that Feed are listed. 
 
 You should be able to delete or create a report out of any feed item on the list.
 
-![image alt text](image_77.png)
+![image alt text](../Images/image_77.png)
 
-You can also view all feed items coming into the platform irrespective of which specific feed they are coming from by clicking on the "*Feed items*" link, adjacent to the “*Feeds*” link. Each For feed Item coming in shows you if geo-location is available, which source it’s come from and a preview of the item.![image alt text](image_78.png)
+You can also view all feed items coming into the platform irrespective of which specific feed they are coming from by clicking on the "*Feed items*" link, adjacent to the “*Feeds*” link. Each For feed Item coming in shows you if geo-location is available, which source it’s come from and a preview of the item.![image alt text](../Images/image_78.png)
 
 ### 2.8.6 Layers
 
@@ -822,7 +822,7 @@ To add a new Static layer
 
 * Navigate to the bottom of the page, and use the Add/Edit box to insert the necessary details.
 
-![image alt text](image_79.png)
+![image alt text](../Images/image_79.png)
 
 * You can choose to either upload a static map layer, or provide a link/URL from which the static map layer can be pulled from.[ KML/KMZ Best practice information can be found on our wiki here](https://wiki.ushahidi.com/display/WIKI/KML+Best+Practices).
 
@@ -830,7 +830,7 @@ To add a new Static layer
 
 * Click on save.
 
-Once saved, the Layer will appear in the list at the top of the page and can be Edited, deleted, or made visible/invisible. ![image alt text](image_80.png)
+Once saved, the Layer will appear in the list at the top of the page and can be Edited, deleted, or made visible/invisible. ![image alt text](../Images/image_80.png)
 
 If the layer is visible it will automatically appear in the Homepage, where users will be able to see it by clicking on it.
 
@@ -838,7 +838,7 @@ If the layer is visible it will automatically appear in the Homepage, where user
 
 This section allows you to schedule actions related to Alerts, Email, Feeds, Sharing(if activated) and Twitter.
 
-![image alt text](image_81.png)
+![image alt text](../Images/image_81.png)
 
 It allows admins to:-
 
@@ -846,19 +846,19 @@ It allows admins to:-
 
 * Schedule when and how often emails, feeds, tweets and sharing reports are pulled into the platform. 
 
-By default, all those Schedules are set on automatic refresh every day, every hour and every minute. To change those settings, you can click on the Edit tab on the side of each item, which will open a box at the bottom of the page, allowing you to alter those settings according to Day of the Week, Day of the month, Hour and Minute. ![image alt text](image_82.png)
+By default, all those Schedules are set on automatic refresh every day, every hour and every minute. To change those settings, you can click on the Edit tab on the side of each item, which will open a box at the bottom of the page, allowing you to alter those settings according to Day of the Week, Day of the month, Hour and Minute. ![image alt text](../Images/image_82.png)
 
 The scroll down menu allows the administrator to choose in between All, or a particular day, hour or minute. Once done you need to click on save.
 
-![image alt text](image_83.png)
+![image alt text](../Images/image_83.png)
 
 If you ever have an issue with pulling or pushing information from the platform, you can also Force to Run the scheduler to refresh automatically all the incoming information.
 
-![image alt text](image_84.png)
+![image alt text](../Images/image_84.png)
 
 You can also activate or deactivate a particular schedule for a specific incoming feed.
 
-![image alt text](image_85.png)
+![image alt text](../Images/image_85.png)
 
 ### 2.8.8 Public listing
 
@@ -868,7 +868,7 @@ This page allows you to manage your public listing. If you are listed publicly, 
 
 Some of the fields on this form are automatically collected and you do not need to worry about keeping them up to date. This form grants you control over your deployment description, deployment category and images that are displayed when browsing through publicly listed deployments.
 
-![image alt text](image_86.png)
+![image alt text](../Images/image_86.png)
 
 ### 2.8.9 Actions and Badges
 
@@ -916,21 +916,21 @@ There are three steps/requirements to setting up actions:-
 
 * Assign a badge - You may choose to assign a badge to a specific user on your deployment.
 
-![image alt text](image_87.png)
+![image alt text](../Images/image_87.png)
 
 #### 2.8.9.2 Badges
 
 This section allows you create and make use of cool badges to award your users. 
 
-![image alt text](image_88.png)
+![image alt text](../Images/image_88.png)
 
 There are badge images in a variety of categories which can be used in Ushahidi or Crowdmap deployments or other services.
 
-![image alt text](image_89.png)
+![image alt text](../Images/image_89.png)
 
 You can assign or revoke badges to specific users on your deployment from this page, and also delete badges you no longer want to make use of.
 
-![image alt text](image_90.png)
+![image alt text](../Images/image_90.png)
 
 ### 2.8.10 Alerts
 
@@ -944,7 +944,7 @@ This section allows you to:-
 
 *  Delete alert subscriptions
 
-![image alt text](image_91.png)
+![image alt text](../Images/image_91.png)
 
 ### 2.8.11 Sharing
 

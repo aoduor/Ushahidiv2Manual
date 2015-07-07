@@ -2,7 +2,7 @@
 
 ## 4.1 Homepage
 
-![image alt text](image_130.png)
+![image alt text](../Images/image_130.png)
 
 Your ushahidi deployment homepage consists of different sections, each providing you with different information:-
 
@@ -44,7 +44,7 @@ There are also 3 additional buttons at the top of the toolbar
 
 ### 4.1.1 The Map
 
-### ![image alt text](image_131.png)
+### ![image alt text](../Images/image_131.png)
 
 This main map is interactive and is composed of the following parts:-
 
@@ -60,7 +60,7 @@ This main map is interactive and is composed of the following parts:-
 
 This filter enables you to interact with the map even more. It allows you to filter the reports on the map based on which category they belong to. 
 
-![image alt text](image_132.png)
+![image alt text](../Images/image_132.png)
 
 Clicking on all categories will display all reports submitted to the Ushahidi platform, while clicking on a certain category will display only the reports related to that specific category or sub-category. The color of the dots on the map will correspond to the category/sub-category selected on this filter. If any category icons have been assigned, these icons will display, instead of the dots on the map. Users can see view reports belonging to one category or sub-category at a time
 
@@ -70,7 +70,7 @@ If using the Default, bueno or terra theme, and the administrator has enabled th
 
 This timeline shows the number of reports mapped over time and by default shows the overall trend of the reports from the beginning of your deployment to the current day as a static graph. To view reports published over a given period of time, you just have to provide the date range in the date fields below the map. This will set the time interval you want to look at, and only reports within this date range will be displayed on the map.
 
-![image alt text](image_133.png)
+![image alt text](../Images/image_133.png)
 
 The timeline can also be used in coordination with the map, turning the default, static visualization into a dynamic visualization displaying the reports as they were added to the system by clicking on the **_Play_** button. If you want to view an animation of the reports mapped over time and space over a certain period of time, simply insert the dates in the two boxes and click on the Play button
 
@@ -90,7 +90,7 @@ As long as the administrator has set up the platform to receive reports from the
 
 * **_Smartphone apps_**: Links to the default smartphone applications on the iOS and Android store are provided here.
 
-![image alt text](image_134.png)
+![image alt text](../Images/image_134.png)
 
 ### 4.1.5 Incident Block
 
@@ -98,7 +98,7 @@ The Incident List Box appears below the map(or timeline if enables) and it shows
 
 By clicking on the title you will be directed to the individual report view page, where you will be able to see the description of the event and all the specifications of the event reported
 
-![image alt text](image_135.png)
+![image alt text](../Images/image_135.png)
 
 ### 4.1.6 Official and Mainstream Block
 
@@ -108,7 +108,7 @@ If you choose to include [news feeds](#heading=h.bxbwwyjvcmdg) on your homepage,
 
 The list shows the title of the news item, the source, and the date it has posted. This box works like a Google Reader, and by clicking on the title of the news you will be directed to the original source of the information.
 
-![image alt text](image_136.png)
+![image alt text](../Images/image_136.png)
 
 ### 4.1.7 Static Layers
 
@@ -118,7 +118,7 @@ These static layers are added as KML/KMZ files in the [Layers section](#heading=
 
 The static layer box only appears if you have any active and visible layers, and would be listed under the category box(if using the Default, bueno or terra themes) under "*Other Layers*". If using the Unicorn theme, this box will appear on the top left hand corner of your page.
 
-![image alt text](image_137.png)
+![image alt text](../Images/image_137.png)
 
 Clicking on a static layer will show your points related to the layer selected on the map. You can chose to view multiple static layers on the map at the same time.
 
@@ -128,7 +128,7 @@ The ushahidi platform allows you to overlay reports from other deployments on th
 
 This block only appears if [the sharing plugin](#heading=h.dc6ag4tg3lcv) is activated and there are active ushahidi deployment links that have been made visible. 
 
-![image alt text](image_138.png)
+![image alt text](../Images/image_138.png)
 
 This box would be listed under the category box and Static Layers Link(if using the Default, bueno or terra themes) under "*Other Deployments*". If using the Unicorn theme, this box will appear on the top left hand corner of your page.
 
@@ -138,7 +138,7 @@ Clicking on the reports tab redirects you to this page, which shows you a list o
 
 You can specify a date range within which you would like to view reports on this page.
 
-![image alt text](image_139.png)
+![image alt text](../Images/image_139.png)
 
 There are 2 default views provided to you on this page:-
 
@@ -152,13 +152,13 @@ There are 2 default views provided to you on this page:-
 
 * You should also see the report titles, description summary and date of the report from this view.
 
-![image alt text](image_140.png)
+![image alt text](../Images/image_140.png)
 
 * Map view
 
 * This view displays reports as green dots on the map. Clicking on each dot will display a pop up with the report title, which links to the individual report view page
 
-![image alt text](image_141.png)
+![image alt text](../Images/image_141.png)
 
 ### 4.2.1 Filter
 
@@ -166,33 +166,33 @@ You can filter reports on this page according to:-
 
 * *Category: *You can filter reports on this page by multiple categories at a time, unlike the homepage which only allows you to select one category at a time.
 
-![image alt text](image_142.png)
+![image alt text](../Images/image_142.png)
 
 * *Location: *You can set a location range within which you would like to search for reports.
 
-![image alt text](image_143.png)
+![image alt text](../Images/image_143.png)
 
 * *Type/Source: *You can filter reports based on which source they came from i.e SMS, Email, Twitter, Web
 
-![image alt text](image_144.png)
+![image alt text](../Images/image_144.png)
 
 * *Media: *You can search for reports that have any media items attached to them i.e videos or images
 
-![image alt text](image_145.png)
+![image alt text](../Images/image_145.png)
 
 
 
 * *Verification status: *You can search for/filter reports based on whether they are verified or not
 
-![image alt text](image_146.png)
+![image alt text](../Images/image_146.png)
 
 * *Custom form field responses: *You can search for/filter reports based on custom form field responses.
 
-![image alt text](image_147.png)
+![image alt text](../Images/image_147.png)
 
 You can select multiple search/filter criteria from the list above, and clicking on filter reports will return results that meet ALL the criteria selected above.
 
-### 4.2.2 View individual report![image alt text](image_148.png)
+### 4.2.2 View individual report![image alt text](../Images/image_148.png)
 
 Clicking on the report title will access the full report with all of the information. The complete report details from the report page are the following:
 
@@ -244,7 +244,7 @@ The following fields are available on a the report submission page:-
 
 * *Personal Information: *The reporter may include her personal information with report: first name, last name and email address. Typically, this is important information to be include because if there is missing information in the report, or mistakes, the administrator can immediately contact the reporter for clarification. This is not required for the system to accept the report, but it can enormously help the managers of the platform. It’s also good to note that this information will only be made available to administrators of the platform, and not made publicly visible, to protect privacy of users who submit reports.
 
-![image alt text](image_149.png)	
+![image alt text](../Images/image_149.png)	
 
 ## 4.4 Get Alerts
 
@@ -270,7 +270,7 @@ To set up an Alert via email or SMS it is just matter of four easy steps:
 
 * Click "Save Alert".
 
-![image alt text](image_150.png)
+![image alt text](../Images/image_150.png)
 
 ## 4.5 Contact Us
 
@@ -278,7 +278,7 @@ This page is only visible if the administrator has enabled the setting to allow 
 
 The form asks for personal information like name, email address and phone number in addition to message subject and text, and has a security code to protect the deployment from Spam.
 
-![image alt text](image_151.png)
+![image alt text](../Images/image_151.png)
 
 ## 4.6 Additional Buttons
 
@@ -286,10 +286,10 @@ The form asks for personal information like name, email address and phone number
 
 This drop down on the top right hand corner allows any user to select the language they would like to operate with on the platform. Note that this does not affect the default language set by the admin in the Settings page.
 
-![image alt text](image_152.png)
+![image alt text](../Images/image_152.png)
 
 ### 4.6.2 Search
 
 The search option on the top right hand corner allows you to look for specific reports within the Ushahidi platform. By typing into the box the key word the system will give you all the reports, in chronological order, starting from the most recent one, that contains or matches that search terms provided.
 
-![image alt text](image_153.png)
+![image alt text](../Images/image_153.png)

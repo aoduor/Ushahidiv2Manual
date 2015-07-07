@@ -84,7 +84,7 @@ There are 2 ways to download Ushahidi.
 
 Once you downloaded the files, unzip them and upload them to the server. Once uploaded, you have to change the permissions on a few files and directories. 
 
-![image alt text](image_1.png)
+![image alt text](../Images/image_1.png)
 
 Ensure the following directories and files are writable by your webserver
 
@@ -96,7 +96,7 @@ media/uploads
 
 If you don’t do this, the Ushahidi installer will recognize this and remind you that this needs to be done during the first step of the installation process and will halt the installation until this is done.
 
-![image alt text](image_2.png)
+![image alt text](../Images/image_2.png)
 
 Here are instructions on how to set file permissions on:-
 
@@ -114,7 +114,7 @@ You’ll be automatically redirected to the installer subdirectory. If all of th
 
 Choose this option if you want to get up and running quickly; you can always configure everything else later.
 
-![image alt text](image_3.png)
+![image alt text](../Images/image_3.png)
 
 ### 1.4.1 Getting started
 
@@ -136,7 +136,7 @@ If either one of these folders is not writable, you’ll receive a warning that 
 
 Before we proceed, you’ll have wanted to setup a MySQL database for your website (Ushahidi will not do this for you). If you’re unsure how to do this but using a fairly standard website hosting provider, you likely have access to cPanel or another GUI to help set this up, or other documentation to help.
 
-![image alt text](image_4.png)
+![image alt text](../Images/image_4.png)
 
 By now you’ll want your database created and the login information handy, so enter that under "database name," “user name,” and “password.”
 
@@ -156,7 +156,7 @@ The next screen covers general information about the website. Your website name,
 
 tagline (or slogan), default language, and site email address are all straightforward.
 
-![image alt text](image_5.png)
+![image alt text](../Images/image_5.png)
 
 * *Site email address*: Keep in mind this will be the email address displayed on the website to accept reports, should you enable that functionality.
 
@@ -166,15 +166,15 @@ tagline (or slogan), default language, and site email address are all straightfo
 
 This section allows you to set an admin username and password that you can use to access your deployment after installation.
 
-![image alt text](image_6.png)
+![image alt text](../Images/image_6.png)
 
 ## 1.5 Advanced Installation
 
-![image alt text](image_7.png)
+![image alt text](../Images/image_7.png)
 
 All parts of the basic installation are included in this section as well, but have some additional steps that will get you into the administration faster for configurations and setup. 
 
-![image alt text](image_8.png)
+![image alt text](../Images/image_8.png)
 
 The additional steps include the following below:-
 
@@ -184,19 +184,19 @@ Setting up the mail server is important to receive reports via email as well as 
 
 If you’re able to use Gmail, Hotmail, or Yahoo, as your email provider (Gmail especially), that can simplify the process. Hints are provided alongside the installer to help you with what you should enter. Again, if you can use one of these, it can make this process much simpler.
 
-If you’re using an email address off your domain, you’ll probably want to check the documentation, knowledgebase, or FAQ to figure out what the proper settings are for the "Mail Server Username," “Mail Server Port,” and “Mail Server Host” fields.![image alt text](image_9.png)
+If you’re using an email address off your domain, you’ll probably want to check the documentation, knowledgebase, or FAQ to figure out what the proper settings are for the "Mail Server Username," “Mail Server Port,” and “Mail Server Host” fields.![image alt text](../Images/image_9.png)
 
 ### 1.5.2 Map provider settings
 
 The last step is, fortunately, the simplest. Choose the Map you would like – Google, Bing, ESRI or OpenStreetMap (OSM) – in the dropdown.
 
-![image alt text](image_10.png)
+![image alt text](../Images/image_10.png)
 
 ## 1.6 Successful installation
 
 You are done!
 
-![image alt text](image_11.png)
+![image alt text](../Images/image_11.png)
 
 Follow the links provided to see your website, log in to the administration dashboard, or get right to the next important steps in setting up your website: further configuring the map settings3 and connecting your instance to an SMS server.
 
@@ -216,7 +216,7 @@ Crowdmap classic is the cloud based version of the Ushahidi platform. It is the 
 
 * Click on "Sign Up"
 
-![image alt text](image_12.png)
+![image alt text](../Images/image_12.png)
 
 * **Create your account**. Provide your name, email address and set a secure password
 
@@ -224,10 +224,10 @@ Crowdmap classic is the cloud based version of the Ushahidi platform. It is the 
 
 * **Enter your deployment details**. Give your deployment a name and give it a tag line
 
-![image alt text](image_13.png)
+![image alt text](../Images/image_13.png)
 
 * Accept Terms of Use
 
 * Click on Finish & Create Deployment  
 
-![image alt text](image_14.png)
+![image alt text](../Images/image_14.png)

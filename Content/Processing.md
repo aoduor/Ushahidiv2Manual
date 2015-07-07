@@ -2,7 +2,7 @@
 
 ## 3.1 Dashboard
 
-The Dashboard page is the initial page a user is redirected to on logging into the platform. The Dashboard provides a summary of all the information coming into the platform and displays a snapshot of the amount of reports over time.![image alt text](image_92.png)
+The Dashboard page is the initial page a user is redirected to on logging into the platform. The Dashboard provides a summary of all the information coming into the platform and displays a snapshot of the amount of reports over time.![image alt text](../Images/image_92.png)
 
 The Dashboard is composed of four main sections:
 
@@ -58,7 +58,7 @@ This tracks:-
 
 Visitor information is available over time as well and allows the administrator to see only the statistic for a predefined interval of time by inserting the dates in the opposite fields, or by clicking on the date range buttons, which allows you to choose an interval of 1 month, three months or six months.
 
-![image alt text](image_93.png)
+![image alt text](../Images/image_93.png)
 
 Under the graph, you can see a list of days, with an indication of how many unique visitors, visits or page views have been recorded per day, along with percentages.
 
@@ -66,7 +66,7 @@ Under the graph, you can see a list of days, with an indication of how many uniq
 
 This section shows the countries from where users/ individuals accessing your ushahidi deployment are located. Country information is available over time and allows the administrator to see only the statistic referred to a predefined interval of time by inserting the dates in the date fields, or by clicking on the date range buttons, which allows you to choose an interval of one, three, or six months.
 
-![image alt text](image_94.png)
+![image alt text](../Images/image_94.png)
 
 The countries that have the higher number of visitors are highlighted in red on the map, while under the map there is the list if the countries with the numbers of unique visitors, visits or page views per day per country and the percentage over the total views.
 
@@ -80,7 +80,7 @@ The Report Stats page shows the breakdown of reports on a pie chart, according t
 
 * Approved / Not approved
 
-Statistical information on reports submitted is also available over time and allows the administrator to see only the statistic referred to a predefined interval of time by inserting the dates in the date fields, or by clicking on the date range buttons, which allows you to choose an interval of one, three, or six months.![image alt text](image_95.png)
+Statistical information on reports submitted is also available over time and allows the administrator to see only the statistic referred to a predefined interval of time by inserting the dates in the date fields, or by clicking on the date range buttons, which allows you to choose an interval of one, three, or six months.![image alt text](../Images/image_95.png)
 
 A table on the right of the chart indicated the number of reports visualized in the chart and the categories or the verified reports, or the approved reports visualized in the chart.
 
@@ -88,7 +88,7 @@ A table on the right of the chart indicated the number of reports visualized in 
 
 The category impact is a graph that allows the administrator to view reports by category over time. By moving from the left to the right, you are able to see a comparative view of the different categories, while passing the mouse over the category itself, the name of the category and the number of the report submitted in that period of time will appear on the top of the graph.
 
-![image alt text](image_96.png)
+![image alt text](../Images/image_96.png)
 
 Statistical information on the reports submitted is available over time as well and allows the administrator to see only the statistic referred to over a predefined interval of time by inserting the dates in the date fields, or by clicking on the date range buttons and choosing an interval of one, three, or six months.
 
@@ -96,13 +96,13 @@ Statistical information on the reports submitted is available over time as well 
 
 The Report Punchcard is a graph that depicts the number of reports per day according to the hour of the event. The graph shows in the Y axe the time of the day and in the X axe the day of the week. Looking at the size of the dot in the graph you can easily see which times of which days the majority of the reports where submitted to the platform.
 
-![image alt text](image_97.png)
+![image alt text](../Images/image_97.png)
 
 ## 3.3 Messages
 
 You can access this section of your deployment by clicking on the *Messages* link on your dashboard. 
 
-![image alt text](image_98.png)
+![image alt text](../Images/image_98.png)
 
 All messages coming from SMS, Email and Twitter are listed on this page. 
 
@@ -110,7 +110,7 @@ It’s important to note that messages received within this section will not be 
 
 ### 3.3.1 SMS
 
-![image alt text](image_99.png)
+![image alt text](../Images/image_99.png)
 
 This page grants you access to:-
 
@@ -118,21 +118,21 @@ This page grants you access to:-
 
 * *Create report*: If an SMS message has not yet been transformed into a report, this link will appear on the side of each message. Clicking on this link will redirect you to the report creation page, where the body of the SMS will be inserted into the description field. You will only have to add a title, location, category and date and then submit the report.
 
-![image alt text](image_100.png)![image alt text](image_101.png)
+![image alt text](../Images/image_100.png)![image alt text](../Images/image_101.png)
 
 
 
-* *View report*: If an SMS message has already been transformed into a report, this link will appear on the side of the message, in green. Clicking on this link redirects you to view the report created out of this SMS.![image alt text](image_102.png)
+* *View report*: If an SMS message has already been transformed into a report, this link will appear on the side of the message, in green. Clicking on this link redirects you to view the report created out of this SMS.![image alt text](../Images/image_102.png)
 
-* *Reply*: This allows you to respond to text messages. By default, you can insert default replies requesting for more information or location information. You can also reply with your own custom message and click on *SEND*.![image alt text](image_103.png)
+* *Reply*: This allows you to respond to text messages. By default, you can insert default replies requesting for more information or location information. You can also reply with your own custom message and click on *SEND*.![image alt text](../Images/image_103.png)
 
-* *From*: This displays the phone number from which the text message is coming from. You can make use of the [SMS Anonymizer plugin](https://github.com/ushahidi/Ushahidi-plugin-sms-anonymizer), which encrypts the phone numbers and instead displays a bunch of jumbled up characters, for security purposes.![image alt text](image_104.png)
+* *From*: This displays the phone number from which the text message is coming from. You can make use of the [SMS Anonymizer plugin](https://github.com/ushahidi/Ushahidi-plugin-sms-anonymizer), which encrypts the phone numbers and instead displays a bunch of jumbled up characters, for security purposes.![image alt text](../Images/image_104.png)
 
-* *Delete*: You can delete text messages from this section.![image alt text](image_105.png)
+* *Delete*: You can delete text messages from this section.![image alt text](../Images/image_105.png)
 
 * **_Outbox_**: This section displays all Outgoing SMS Messages and allows you to delete them as well.
 
-* **_Trusted_**: Filtered SMS messages from trusted reporters![image alt text](image_106.png)
+* **_Trusted_**: Filtered SMS messages from trusted reporters![image alt text](../Images/image_106.png)
 
 * **_Spam_**: Filtered SMS messages from phone numbers marked as spam
 
@@ -150,9 +150,9 @@ This page grants you access to:-
 
 * Spam - This will flag any messages received by this reporter as spam
 
-* Spam+delete - This will flag and delete any messages received by this reporter as spam.![image alt text](image_107.png)
+* Spam+delete - This will flag and delete any messages received by this reporter as spam.![image alt text](../Images/image_107.png)
 
-* Add location information to a reporter by clicking on *Edit. *Adding location information to a reporter allows for location information to be added to any reports that are created from this reporter.![image alt text](image_108.png)
+* Add location information to a reporter by clicking on *Edit. *Adding location information to a reporter allows for location information to be added to any reports that are created from this reporter.![image alt text](../Images/image_108.png)
 
 * Search for reporters by phone number
 
@@ -178,11 +178,11 @@ This page also grants you access to:-
 
 * **_Spam_****:** Filtered Emails flagged as spam
 
-* **_Reporters_**: This works the same way as the reporters page described above in the SMS section of this manual![image alt text](image_109.png)
+* **_Reporters_**: This works the same way as the reporters page described above in the SMS section of this manual![image alt text](../Images/image_109.png)
 
 ### 3.3.3 Twitter
 
-### ![image alt text](image_110.png)
+### ![image alt text](../Images/image_110.png)
 
 This page, much like email and SMS,  grants you access to:-
 
@@ -206,7 +206,7 @@ This page, much like email and SMS,  grants you access to:-
 
 ## 3.4 Reports
 
-![image alt text](image_111.png)
+![image alt text](../Images/image_111.png)
 
 This is where a list of all reports submitted or created on the system can be found. This is easily where you’ll be spending most of your time with the system. This page allows you to:-
 
@@ -246,7 +246,7 @@ In this list of reports, the administrator can see:-
 
 * The source i.e the person who created the report, and which channel they used i.e Web, SMS, email, twitter.
 
-![image alt text](image_112.png)
+![image alt text](../Images/image_112.png)
 
 This section has its own sub-toolbar which has the following tabs:-
 
@@ -258,11 +258,11 @@ On the side of each report, you can see the following actions:-
 
 * If this link is **green**, this means **this report has been approved**. Clicking on it prompts you to unapprove it.
 
-![image alt text](image_113.png)
+![image alt text](../Images/image_113.png)
 
 * If this link is **blue and underlined**, this means t**his report has NOT been approved**. Clicking on it prompts you to approve it.
 
-![image alt text](image_114.png)
+![image alt text](../Images/image_114.png)
 
 * **_Verify	_**
 
@@ -270,27 +270,27 @@ On the side of each report, you can see the following actions:-
 
 * If this link is **green**, this means **this report has been verified**. Clicking on it prompts you to unverify it.
 
-![image alt text](image_115.png)
+![image alt text](../Images/image_115.png)
 
 * If this link is **blue and underlined**, this means **this report has NOT been verified**. Clicking on it prompts you to verify it.
 
-![image alt text](image_116.png)
+![image alt text](../Images/image_116.png)
 
 * **_Delete: _**Allows you to delete a single report.
 
-![image alt text](image_117.png)
+![image alt text](../Images/image_117.png)
 
 You’ll also note that you can conduct actions on bulk reports by clicking on the tick boxes adjacent to the report title, and selecting the action in the sub toolbar above.
 
-* *Awaiting Approval :* This tab only lists reports that have not yet been approved, which means that they have been submitted but do not appear on the map.![image alt text](image_118.png)
+* *Awaiting Approval :* This tab only lists reports that have not yet been approved, which means that they have been submitted but do not appear on the map.![image alt text](../Images/image_118.png)
 
-* *Awaiting Verification: *This tab only lists reports that have not yet been verified. This may include reports that have already been approved. ![image alt text](image_119.png)
+* *Awaiting Verification: *This tab only lists reports that have not yet been verified. This may include reports that have already been approved. ![image alt text](../Images/image_119.png)
 
-* *Uncategorized reports: *This tab only lists reports that may have been uploaded with no category information, and are thus uncategorized.![image alt text](image_120.png)
+* *Uncategorized reports: *This tab only lists reports that may have been uploaded with no category information, and are thus uncategorized.![image alt text](../Images/image_120.png)
 
-* *Search/Advanced Search: *This section allows you to perform an advanced search on reports listed. Point to note is that the search results returned will match ANY of the search criteria, as opposed to matching ALL search criteria. The search operation conducted here used the OR operator.![image alt text](image_121.png)
+* *Search/Advanced Search: *This section allows you to perform an advanced search on reports listed. Point to note is that the search results returned will match ANY of the search criteria, as opposed to matching ALL search criteria. The search operation conducted here used the OR operator.![image alt text](../Images/image_121.png)
 
-![image alt text](image_122.png)
+![image alt text](../Images/image_122.png)
 
 
 
@@ -304,7 +304,7 @@ This report creation form is identical to the report creation page on the front 
 
 * Hidden forms, form fields and categories(Those not visible on the front end) are visible to the administrator on this page.
 
-Fill in the following details:-![image alt text](image_123.png)
+Fill in the following details:-![image alt text](../Images/image_123.png)
 
 * **_Form Type_***: *Select a form from a list of custom forms created on your deployment
 
@@ -324,21 +324,21 @@ Fill in the following details:-![image alt text](image_123.png)
 
 * **_Custom form fields: _**Select your custom form field responses.
 
-![image alt text](image_124.png)
+![image alt text](../Images/image_124.png)
 
 * **Information Evaluation**: This box has two questions to ask of the administrator:-
 
 * *Approve this report?* If the information in the report makes sense, the admin will approve the report by clicking "Yes" next to “Approve this report”. The report will then appear on the map as a dot.
 
-* *Verify this report? *The administrator will select "Yes" to verify report if he/she has direct knowledge about the event and can be sure that it is true. It is strongly suggested not to click on verified if it is not possible to confirm the information in the report.![image alt text](image_125.png)
+* *Verify this report? *The administrator will select "Yes" to verify report if he/she has direct knowledge about the event and can be sure that it is true. It is strongly suggested not to click on verified if it is not possible to confirm the information in the report.![image alt text](../Images/image_125.png)
 
-* **_(Optional) Personal Information_** - You can opt to share your contact information, which would only be made visible to administrators on the platform and would not be publicly displayed.![image alt text](image_126.png)
+* **_(Optional) Personal Information_** - You can opt to share your contact information, which would only be made visible to administrators on the platform and would not be publicly displayed.![image alt text](../Images/image_126.png)
 
 When satisfied with the review of the report, you can click on Save Report or Save and Close button, so that the report will be publish on the website. 
 
 ### 3.4.3 Comments
 
-![image alt text](image_127.png)
+![image alt text](../Images/image_127.png)
 
 The comments section allows the administrator to view and manage all comments that are submitted to reports on the website.
 
@@ -374,7 +374,7 @@ You can see the following information on each comment:-
 
 * Delete comments 
 
-### 3.4.4 Download Reports![image alt text](image_128.png)
+### 3.4.4 Download Reports![image alt text](../Images/image_128.png)
 
 This section allows the administrator to download all the reports, either as a CSV(Comma Separated Values) file or XML(Extensible Markup Language) file. There are options to choose:-
 
@@ -410,7 +410,7 @@ Once the desired selection has been made, click on the Download tab.
 
 ### 3.4.5 Upload reports
 
-![image alt text](image_129.png)
+![image alt text](../Images/image_129.png)
 
 This section allows you to import incidents into the Ushahidi platform. This functionality is useful in cases where you need to upload reports from people that cannot send them to you via email or phone but have the data available in a CSV file. This functionality is also useful in cases where you are transferring reports from one platform to another (minding that both platforms are using identical versions of the software).
 

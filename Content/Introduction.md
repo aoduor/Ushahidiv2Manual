@@ -1,4 +1,4 @@
-![image alt text](image_0.png)
+![image alt text](../Images/image_0.png)
 
 Ushahidi v2.7.4 Manual
 
