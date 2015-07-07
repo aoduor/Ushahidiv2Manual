@@ -1,61 +1,117 @@
 ![image alt text](./Images/image_0.png)
 
-Ushahidi v2.7.4 Manual
-
-# About Ushahidi
-
-Ushahidi which means "testimony" in Swahili, was a website that was initially developed to map reports of violence in Kenya after the post-election fallout at the beginning of 2008. Since then, the name “Ushahidi” has come to represent the people behind the “Ushahidi Platform”.
-
-The Ushahidi platform is an open source software for information collection, visualization, and interactive mapping. People can send in information from multiple channels including SMS, email, Twitter and web reports. The platform timestamps each report and allows you to geotag them and organize them in a simple to use Data Management System, and displays the crowdsourced information on a map and timeline. The platform has been used around the world because of it’s ability to easily integrate simple communication tools like SMS with digital channels like Twitter to be able to access all types of people through the means of communication they are most accustomed with.
-
-Over the last seven years,  Ushahidi has grown into a global non-profit technology company, whose mission is to change the way information flows in the world and empower people to make an impact with open source technologies, cross-sector partnerships, and ground-breaking ventures.
-
-Ushahidi is responsible for founding the [iHub](http://ihub.co.ke), a technology hub in Nairobi which has helped build the technology community in East Africa, growing to over 14,000 members, has incubated 150 tech startups that have created over 1000 jobs. Ushahidi, together with partners Hivos and the Institute of Development Studies, implements the [Making all Voices Count Grand Challenge](http://makingallvoicescount.com/), a $55 million fund which focuses global attention on creative and cutting-edge solutions to transform the relationship between citizens and their governments including seeding innovative solutions.
-
-Lastly, as a group of technologists spread around the world who get really frustrated when the internet doesn’t work, Ushahidi built and spun out [BRCK](https://brck.com), which builds rugged internet for people and things.
-
-# About this Guide
-
-This guide will give you a step-by-step overview on how to set up your own Ushahidi version 2.x map and how to make full use of all the features that the Ushahidi platform software offers. If you’d like to learn more, we have additional resources available online for you-
-
-* [https://forums.ushahidi.com](https://forums.ushahidi.com)
-
-* [https://wiki.ushahidi.com](https://wiki.ushahidi.com)
-
-* [http://www.ushahidi.com/get-help/](http://www.ushahidi.com/get-help/)
-
-This guide will show you how to install the ushahidi platform, customize it to the needs of your project, and process the incoming information. It is meant to be a comprehensive learning guide for brand new users of the Ushahidi platform as well as a reference for those who are more technically savvy or have used it in the past in an administrative capacity.
-
-* **If you’re a user, go to ****[Section 4: The User Interfac**e](#heading=h.4vxhy7xlldns)
-
-* **If you’re an administrator and want to process information coming into the platform, go to ****[Section 3: Processing Incoming Informatio**n](#heading=h.pmihqnhbe5fn)
-
-* **If you’re an administrator and want to customize your platform, go to ****[Section 2: Customizing your deploymen**t](#heading=h.rd4rpl44wkqw)
-
-If you’re a developer looking to make functional customisations to the Ushahidi platform, [please see our detailed developer guide for insights](https://wiki.ushahidi.com/display/WIKI/Ushahidi+v2.X+Developer+Guide).
-
-If you have any problems and need some guidance or help, reach out to us via:-
-
-* info[at]ushahidi[dot]com
-
-* [Ushahidi Mailing Lists](http://list.ushahidi.com/)
-
-* [Ushahidi Forums](https://wiki.ushahidi.com/display/WIKI/Report+a+bug)
-
-* Ushahidi Skype dev chat
-
-* [IRC Channel](http://irc.lc/freenode/ushahidi)/ [Gitter Channel](https://gitter.im/ushahidi/Community)/ [Hipchat Channel](https://www.hipchat.com/g9I7z8M9a)(Note that posting on any one of these channels will display on all three)
-
-If you bump into a bug on the platform or have a feature you would like to request, please file it on our github issues page([https://github.com/ushahidi/Ushahidi_Web/issues](https://github.com/ushahidi/Ushahidi_Web/issues)). [Here’s a guide on how to file a good bug report](https://wiki.ushahidi.com/display/WIKI/Report+a+bug). 
-
-We also recommend going through the [Ushahidi toolkits](https://wiki.ushahidi.com/display/WIKI/Ushahidi+Toolkits), aside from this manual, for insights on strategic planning around your deployment.
-
-* [Assessment Tool](http://www.slideshare.net/Ushahidi/ush-kenya-assessmenttool101launchfinal11)
-
-* [Implementation Tool](http://www.slideshare.net/Ushahidi/ushahidi-deployment-implementation-toolbox)
-
-* [Output Tool](http://www.slideshare.net/Ushahidi/ushahidi-deployment-output-toolbox)
-
-**_This guide has been updated and adapted based on content provided from the first version of the Ushahidi manual by Anahi Ayala Iacucci (to whom we are grateful for all the amazing work), the Ushahidi Wiki, and also contains new content from features that were previously undocumented for Ushahidi version 2.x by Angela Oduor Lungati._**
-
-**_Feedback is welcome, and will be incorporated into this guide moving forward._**
+# Ushahidi v2.7.4 Manual
+## Table of Contents
+* About Ushahidi
+* About this Guide
+* 1. Installing the Ushahidi platform
+** 1.1 Server requirements
+*** 1.1.1 The "AMP" (Apache, Mysql, PHP) Stack
+*** 1.1.2 Required PHP Extensions
+*** 1.1.3 Optional Server Requirements
+** 1.2 Downloading the platform
+** 1.3 Uploading files and setting permissions
+** 1.4 Basic Installation
+** 1.4.1 Getting started
+*** 1.4.2 Database requirements
+*** 1.4.3 Site settings
+*** 1.4.4 Admin settings
+** 1.5 Advanced Installation
+*** 1.5.1 Mail settings
+*** 1.5.2 Map provider settings
+** 1.6 Successful installation
+** 1.7 Upgrading Ushahidi
+** 1.8 Using Crowdmap Classic
+* 2. Customizing your deployment
+** 2.1 Accessing your admin panel
+*** 2.1.1 Log in
+*** 2.1.2 Create an account
+** 2.2 Modifying settings
+*** 2.2.1 Site Settings
+*** 2.2.2 Map Settings
+**** 2.2.2.1 Default Location
+**** 2.2.2.2 Map Timeline
+**** 2.2.2.3 Map Provider
+**** 2.2.2.4 Configure Map
+**** 2.2.2.5 Cluster reports on Map
+**** 2.2.2.6 Default color for all categories
+**** 2.2.2.7 Default icon for all categories
+*** 2.2.3 SMS Settings
+**** 2.2.3.1 Using FrontlineSMS
+***** 2.2.3.1.1 Technical requirements
+***** 2.2.3.1.2 Steps to follow
+**** 2.2.3.2 Using SMSSync
+**** 2.2.3.3 Using Clickatell
+*** 2.2.4 Email Settings
+*** 2.2.5 Clean URL Settings
+*** 2.2.6 HTTPS Settings
+*** 2.2.7 API Settings
+*** 2.2.8 Twitter Settings
+*** 2.2.9 External Apps
+** 2.3 Managing Users
+*** 2.3.1 Manage Roles and Permissions
+*** 2.3.2 Add/Edit new user
+** 2.4 Addons
+*** 2.4.1 Plugins
+**** 2.4.1.1 How to use the sharing plugin
+*** 2.4.2 Themes
+** 2.5 Get Help
+** 2.6 Search
+** 2.7 Language Box
+** 2.8 Manage your deployment
+*** 2.8.1 Categories
+*** 2.8.2 Blocks
+*** 2.8.3 Forms
+**** 2.8.3.1 Creating a new form
+**** 2.8.3.2 Adding Form fields to a form
+*** 2.8.4 Pages
+*** 2.8.5 Newsfeeds
+*** 2.8.6 Layers
+*** 2.8.7 Scheduler
+*** 2.8.8 Public listing
+*** 2.8.9 Actions and Badges
+**** 2.8.9.1 Actions
+**** 2.8.9.2 Badges
+*** 2.8.10 Alerts
+*** 2.8.11 Sharing
+* 3. Processing the Incoming Information
+** 3.1 Dashboard
+** 3.2 Stats
+*** 3.2.1 Visitor Summary
+*** 3.2.2 Country Breakdown
+*** 3.2.3 Report Stats
+*** 3.2.4 Category Impact
+*** 3.2.5 Report Punchcard
+** 3.3 Messages
+*** 3.3.1 SMS
+*** 3.3.2 Email
+*** 3.3.3 Twitter
+** 3.4 Reports
+*** 3.4.1 View Reports
+*** 3.4.2 Create Report
+*** 3.4.3 Comments
+*** 3.4.4 Download Reports
+*** 3.4.5 Upload reports
+**** 3.4.5.1 Rules
+*****Importing Custom form fields/Personal information
+**** 3.4.5.2 Sample CSV Report
+*** 3.4.6 Delete all reports
+* 4. The User Interface
+** 4.1 Homepage
+*** 4.1.1 The Map
+*** 4.1.2 Categories
+*** 4.1.3 The timeline
+*** 4.1.4 How to report box
+*** 4.1.5 Incident Block
+*** 4.1.6 Official and Mainstream Block
+*** 4.1.7 Static Layers
+*** 4.1.8 Other deployments
+** 4.2 Reports Listing
+*** 4.2.1 Filter
+*** 4.2.2 View individual report
+** 4.3 Submit report
+** 4.4 Get Alerts
+** 4.5 Contact Us
+** 4.6 Additional Buttons
+*** 4.6.1 Languages
+*** 4.6.2 Search
