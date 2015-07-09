@@ -1,3 +1,6 @@
+---
+title: Introduction
+---
 # About Ushahidi
 
 Ushahidi which means "testimony" in Swahili, was a website that was initially developed to map reports of violence in Kenya after the post-election fallout at the beginning of 2008. Since then, the name “Ushahidi” has come to represent the people behind the “Ushahidi Platform”.

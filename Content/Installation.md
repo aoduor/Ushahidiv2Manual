@@ -1,3 +1,6 @@
+---
+title: Installing the Ushahidi Platform
+---
 # 1. Installing the Ushahidi platform
 
 If you’ve ever installed WordPress, Drupal, or another, popular, downloadable content management system (CMS) or blogging platform, installing Ushahidi will be a walk in the park. If not, not to worry; like many popular web applications available today, Ushahidi features an installer to walk you through the process.

@@ -1,3 +1,6 @@
+---
+title: Processing the Incoming Information
+---
 # 3. Processing the Incoming Information
 
 ## 3.1 Dashboard

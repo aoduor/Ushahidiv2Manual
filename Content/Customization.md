@@ -1,3 +1,6 @@
+---
+title: Customizing your deployment
+---
 # 2. Customizing your deployment
 
 ## 2.1 Accessing your admin panel

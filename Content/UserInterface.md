@@ -1,3 +1,6 @@
+---
+title: The User Interface
+---
 # 4. The User Interface
 
 ## 4.1 Homepage
